@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    ; 
+}
+body {
+    background-color: rgb(99, 5, 63);
+    color: rgb(164, 206, 243);
+}
+.item {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    /*margin: 10px;*/
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 150px 1fr 100px;
+    gap: 20px;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.item1 {
+    background-color: rgb(186, 153, 224);
+    color: rgb(57, 28, 85);
+    grid-column: 1 / span 2; 
+    
+}
+.item2 {
+    color: rgb(255, 255, 255);
+    grid-column: 1 / span 1;
+}
+
+.item3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.item4{
+    grid-column: 1 / span 2; 
+
+
+
+
+}
+.logo{
+    background-color: #8088d8;
+    height: 50px;
+    width: 200px;
+}
+.photo{
+    background-color: #e4b1b1;
+
+}
+.image {
+    background-repeat: no-repeat; /*#Можно поставить повторять в строке, столбике или на весь экран*/
+    font-size: 200px;
+    /* text-shadow: 2px 2px 10px rgb(100,1,20), -2px -2px 10px; # Это нужно при работе с текстом*/
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    /* background-color: rgb(67, 140, 185); */
+    /* background-attachment: fixed; */
+    /* height: 100px; */
+
+}
+.image1 {
+    background-image: url(https://kpiz.ru/wp-content/uploads/2023/06/rajan-gosling-otvetil-hejteram-chto-onnbspeshhjo-nenbspslishkom-staryj-dlja-roli-kena-8917cc0.jpg);
+}
+.image2 {
+    background-image: url(https://d.wattpad.com/story_parts/684427640/images/157ba70795f38f0d539151019408.jpg);
+}
+.image3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyDBG5Vhd_EGI07AxB7Dz7iDsi5mSHq8xhorXc4GJq5kgGJ6lDoXCZ1oZ0kVK8LiQWZMY&usqp=CAU);s
+}
+.image4 {
+    background-image: url(https://l-userpic.livejournal.com/80084996/8096879);
+}
